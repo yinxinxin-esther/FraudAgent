@@ -25,11 +25,11 @@ API_KEY = "sk-3543d069c8f5463687ea83cedaddede3"
 BASE_URL = "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
 MODEL = "qwen-plus"
 
-CONFIDENCE_THRESHOLD = 0.6
+CONFIDENCE_THRESHOLD = 0.55
 FEEDBACK_FILE = "user_feedback.csv"
 ORIGINAL_TRAIN_FILE = "annotation_sample_v1.csv"
 COMBINED_TRAIN_FILE = "annotation_combined.csv"
-RETRAIN_THRESHOLD = 30
+RETRAIN_THRESHOLD = 10
 # ================================================
 
 st.set_page_config(page_title="诈骗文本智能标注 Agent", page_icon="🛡️", layout="wide")
