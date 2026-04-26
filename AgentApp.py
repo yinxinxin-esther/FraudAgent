@@ -351,6 +351,7 @@ with st.sidebar:
     st.success("✅ 一级模型已加载")
     if level2_model: st.success("✅ 二级模型已加载")
     else: st.warning("⚠️ 二级模型未加载")
+    st.success("✅ tags 模型已加载")
     st.divider()
     st.markdown("### 🔧 模型重训练")
     fb_count = len(pd.read_csv(FEEDBACK_FILE)) if os.path.exists(FEEDBACK_FILE) else 0
