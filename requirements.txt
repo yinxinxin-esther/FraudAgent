@@ -1,3 +1,8 @@
 streamlit
 joblib
-OpenAI
+OpenAI 
+TfidfVectorizer
+Pipeline
+CalibratedClassifierCV
+MultiLabelBinarizer
+OneVsRestClassifier
